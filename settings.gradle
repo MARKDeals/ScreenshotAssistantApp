@@ -1,1 +1,16 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PRESERVE_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 rootProject.name = "ScreenshotAssistantApp"
